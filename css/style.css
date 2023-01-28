@@ -1,0 +1,95 @@
+ /* common css start  */
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+    #section{
+    margin-top: 100px;
+    }
+    /* common css end  */
+    /* nav section start  */
+   .button{
+background-color: #B68C5A;
+    }
+    /* nav section end */
+    /* baner section start  */
+    .baner{
+        height: 550px;
+        background: url(../images/banner.png),linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    }
+    .title{
+        font-family: 'EB Garamond', serif;
+        font-weight: 800;
+        padding-top: 120px;
+    }
+    .description {
+        font-family: 'Poppins', sans-serif;
+        color:#CFCFCF;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 24px;
+    }
+    /* baner section end  */
+    /* <!-- The Legal Practice Area section start  --> */
+    .card_title{
+        font-family: 'EB Garamond', serif;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+
+    }
+    .card_text{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;}
+        .icons{
+            height: 25px;
+            width: 30px;
+            text-align: center;
+            background-color: #B68C5A;
+            border-radius: 50%;
+         
+        }
+        .background{
+           background-image:linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);;
+           border: 1px solid #E7E7E7;
+        }
+        .fixed{
+height: 400px;
+        }
+    /* <!-- The Legal Practice Area section end --> *
+
+    
+    /* footer start  */
+    .slider_item{
+        padding-top: 100px;
+    }
+    #footer{
+        margin-top: 100px;
+/* height: 500px; */
+background-color: #111111;
+    }
+    .unorder_list li{
+list-style: none;
+margin-top:1rem;
+    }
+    .unorder_list a{
+text-decoration: none;
+color:#CFCFCF;
+}
+.slide_item{
+    position: relative;
+}
+.slide_item1{
+    padding-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* footer end */
